@@ -1,0 +1,249 @@
+body {
+	/*color: #8f8f8f;
+	font: 12px Metric Light, sans-serif;*/
+	background-image: url(../images/background.png);
+	border-top: 7px solid #2e2e2e;
+	margin: 0;
+}
+.flex-container {
+	display: flex;
+	/*border: 1px solid white;*/
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+.flex-container div {
+
+}
+.logo {
+	border-radius: 8px;
+	padding-right: 0px;
+	width: 150px;
+	height: auto;
+}
+.buttons {
+	padding-top: 25px;
+	margin-left: 9%;
+	margin-right: 8%;
+	align-content: center;
+	/*border: 1px solid red;*/
+}
+.buttons a{
+	vertical-align: middle;
+	margin-right: 35px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #f4f4f4;
+}
+/*-----------------------------------------------------------------------------*/
+.main-info {
+	margin-left: 9%;
+	margin-right: 10.7%;
+	/*border: 1px solid green;*/
+	float: left;
+}
+.main-info div {
+	padding-top: 65px;
+	padding-bottom: 30px;
+	float: left;
+	vertical-align: middle;
+}
+.text-info {
+	padding-right: 300px;
+}
+.text-info h1 {
+	width: 500px;
+	height: auto;
+	font-family: 'Archivo Black', arial;
+	font-size: 28px;
+	color: #f4f4f4;
+}
+.text-info p {
+	width: 500px;
+	height: auto;
+	font-family: 'Roboto Thin', arial;
+	font-size: 18px;
+	color: #f4f4f4;
+}
+.doc-align {
+	padding-right: 10px;
+	float: left;
+}
+.button-info p {
+	width: 500px;
+	height: auto;
+	font-family: 'Roboto Medium', arial;
+	font-size: 13px;
+	color: #f4f4f4;
+}
+/*-----------------------------------------------------------------------------*/
+.updates {
+	margin-top: 90px;
+  	vertical-align: middle;
+	background-color: #d3d3d3;
+	width: 100%;
+	height: 45px;
+}
+.updates div {
+	display: table-cell;
+	float: left;
+	display: inline;
+}
+.updates-logo {
+	text-align: center;
+	background-color: #494949;
+	width: 156px;
+	height: 45px;
+	font-family: 'Roboto Medium', arial;
+	font-size: 10px;
+	color: #f4f4f4;
+}
+.updates p {
+	margin-left: 10px;
+	font-family: 'Roboto Light', arial;
+	font-size: 15px;
+	color: #000;
+}
+/*-----------------------------------------------------------------------------*/
+.interests {
+	width: 100%;
+	height: 793px;
+	background-color: #e1e1e1;
+}
+.interests h1 {
+	padding-top: 15px;
+	text-align: center;
+	font-family: 'Archivo Black', arial;
+	font-size: 32px;
+	color: #000;
+}
+.rect {
+	width: 107px;
+	height: 9px;
+	position: relative;
+	left: 47%;
+    margin-right: -53%;
+    padding-bottom: 2%
+}
+/*-----------------------------------------------------------------------------*/
+.main-interest h1 {
+	text-align: left;
+	padding-left: 5%;
+	width: 100%; 
+	height: auto;
+	font-family: 'Roboto Medium', arial;
+	font-size: 20px;
+	color: #000;
+}
+.main-interest-text {
+	text-align: left;
+	padding-left: 5%;
+	width: 90%; 
+	height: auto;
+	font-family: 'Roboto Light', arial;
+	font-size: 13px;
+	color: #000;
+}
+.interest-img {
+	width: 100%; 
+	height: auto;
+}
+.main-interest {
+	background-color: #fff;
+	width: 570px;
+	height: 547px;
+}
+.main-interest-more{
+	text-align: left;
+	padding-top: 8%;
+	padding-left: 5%;
+	width: 20%; 
+	height: auto;
+	font-family: 'Roboto Medium', arial;
+	font-size: 14px;
+	color: #000;
+	float: left;
+}
+
+.main-interest-share {
+	width: 4%;
+	height: auto;
+	position: relative;
+	left: 65%;
+    margin-right: -35%;
+	padding-right: 5%;
+	padding-top: 10%
+}
+.interest-button {
+	display: inline;
+}
+/*-----------------------------------------------------------------------------*/
+
+
+.interest {
+	background-color: #fff;
+	width: 264px;
+	height: 264px;
+}
+.interest h1 {
+	text-align: left;
+	padding-left: 5%;
+	width: 100%; 
+	height: auto;
+	font-family: 'Roboto Medium', arial;
+	font-size: 13px;
+	color: #000;
+}
+.interest-more{
+	text-align: left;
+	padding-top: 6%;
+	padding-left: 5%;
+	width: 40%; 
+	height: auto;
+	font-family: 'Roboto Medium', arial;
+	font-size: 13px;
+	color: #000;
+	float: left;
+}
+
+.interest-share {
+	width: 4%;
+	height: auto;
+	position: relative;
+	left: 45%;
+    margin-right: -65%;
+	padding-right: 5%;
+	padding-top: 12%
+}
+table { 
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	width: 70%; 
+	border-collapse: collapse; /* Отображать только одинарные линии */
+}
+td { 
+	padding: 5px 5px 5px 5px;
+}
+
+.foot {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	background: #c1c1c1;
+	color: #dbdbdb;
+	width: 100%;
+	height: 24px;
+}
+.foot p {
+	vertical-align: middle;
+	text-align: left;
+	margin-top: 7px;
+	font-family: 'Roboto Light', arial;
+	font-size: 11px;
+	color: #414141;
+}
+
